@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p>3) What is Data Science not? <br><br>
+ 
+    a)	Data science is not (just) machine Learning  <br><br>
+    Making good machine learning based predictions can be an important part of data science, but the truly hard elements of data science involve also involve collecting the data to begin with, defining the problem you're trying to solve (and frequently, re-defining it many times based upon improved understanding of the problem over time), and then interpreting and understanding the results, and knowing what actions to take based upon this. Furthermore, machine learning as a field is typically concerned primarily about the development of new algorithms. Deep learning methods, for instance (typically defined as methods based upon multi-layer neural networks, though honestly the right definition of "deep learning" is as hard as the right definition of "data science", more on that in a later lecture) have come to dominate much recent work in machine learning, and the focus here is often on advanced (and typically quite complex) algorithms that can squeeze out improved performance on extremely challenging tasks. The reality is that for many data science problems. simple machine learning algorithms suffice to attain sufficiently good performance (by whatever metric you want to define performance, but I simply mean that they effectively solve the problem). I'm partial to drawing this picture for people when they ask about how data science compares to machine learning research:  
+     
+      
+    The numbers here are all just examples (specifically the solvable/unsolvable ratio), but the point it gets at is important. There are many data science problems one would like to be able to solve, but in a large number of these cases, there is simply no way to solve the problem given the available data. For the set of problems that are solvable with some kind of machine learning, the vast majority will be solvable at least to a level of sufficient performance, using relatively simple models. The 5% of remaining problems is an important one, because they often consist of the most "interesting" problems from a research standpoint (think problems like speech recognition, natural language understanding, computer vision), but they are often not indicative of the types of problems one encounters in "most" data science applications.  
+     <br><br>
+    b)	Data science is not (just) statistics  <br><br>
+    So if data science is not machine learning, perhaps simple Statistics (that is, the discipline of Statistics) is a better fit? After all, "analyzing data computationally" ... "to understand phenomena in the real world"? This sounds an awful lot like statistics. And I think the fit here is frankly much better than for the standard definition of machine learning. Indeed, the Statistics department at CMU just renamed itself to "Statistics and Data Science".  
+    There are, however, two primary distinctions that are worth making about between data science and Statistics as it is commonly practiced in an academic setting. The first is that historically, the academic field of statistics has tended more towards the theoretical aspects of data analysis than the practical aspects. David Donoho has an excellent article on 	this 	subject, 	50 	years 	of 	data 	science 
+    (http://courses.csail.mit.edu/3.8.337/201.5/docs/50YearsDataScience. pdf), which doubles as an alternative view of data science from a more statistics-centric standpoint, which does an excellent job of covering the distinctions between traditional statistics. Second, from a historical context, data science has evolved from computer science as much as it has from statistics: topics like data scraping, and data processing more generally, are core to data science, typically are steeped more in the historical context of computer science, and are unlikely to appear in many statistics courses.  
+    The last difference, of course, is that statisticians use R, while data scientists use Python. This is non-negotiable. (Since my sarcasm may not come across correctly in written form, yes, I'm saying this tongue-incheek. but there absolutely is a grain of truth here: R, or more specifically, the vast set of libraries that have been developed for R. are far superior for running advanced statistical algorithms; but Python is a much nicer language for collecting and processing data, especially if you consider the set of external libraries it supports).  
+     <br><br>
+    c) Data science is not (just) big data  <br><br>
+    Lastly. there is still a contingent that equates data science with the rise of big data (again we're likely dealing with a term that needs its own set of notes defining it. for the purposes of these notes. let's assume that big data just refers to data that can't easily fit in memory on a single machine). And while it's absolutely true that some data science work really does use vast amounts of data to build models or gain insights, this is frankly the exception rather than the rule. Most data science can work just fine using the (right set of) data that still fits into memory on a single machine. It's useful to know the techniques needed to address big data challenges. but don't create more work for yourself if you don't have to.  
+    </p>
+
+    
+</body>
+</html>
